@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "kanit light";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: absolute;
+}
+/*******************Loader*************************/
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    /* position: absolute; */
+}
+#Loader h1{
+    color: white;
+    font-size: 3.5vw;
+    padding: 20vw 40vw;
+    text-transform: uppercase;
+}
+/******************************Cursor*******************/
+#csr{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 99;
+}
+/********************Main************************/
+#main{
+    width: 100%;
+    /* height: 100vh; */
+    /* position: absolute; */
+    /* background-color: red; */
+}
+/****************************Page1***********************************/
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    background-image: url(Photobook/1.JPG);
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 2vw;
+    color: white;
+    position: absolute;
+    /* position: fixed; */
+    /* z-index: -1; */
+    gap: 1;
+    /* background-color: aqua; */
+}
+#left{
+    display: flex;
+    align-items: center;
+}
+#left h1{
+    font-size: 3vw;
+    margin: 0 2vw;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#right{
+    margin-right: 2vw;
+}
+
+
+/****************************Page2***********************************/
+#page2{
+    width: 100%;
+    height: 200vh;
+    /* background-color: rgb(0, 255, 17); */
+}
+#icon{
+    width:100% ;
+    height: 7vw;
+    /* background-color: aqua; */
+    margin-top: 5vw;
+   
+}
+#icon i{
+    font-size: 5vw;
+    align-self: center;
+    /* background-color: red; */
+    margin: 0 45vw;
+}
+#image-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    position: relative;
+    margin-top: 5vw;
+}
+#image-container img{
+    /* width: 10vw; */
+    /* height: 8vw; */
+    object-fit: cover;
+    position: absolute;
+    
+}
+#img1{
+    width: 50vw;
+    height: 30vw;
+    top:10vw;
+    left:25vw;
+    
+
+}
+#img2{
+    width: 30vw;
+    height: 40vw;
+    top:5vw;
+    left:40vw;
+    
+
+}
+#img3{
+    width: 33vw;
+    height: 40vw;
+    top:6vw;
+    left:33vw;
+
+}
+#img4{
+    width: 55vw;
+    height: 30vw;
+    top:13vw;
+    left:22vw;
+}
+#img5{
+    width: 30vw;
+    height: 40vw;
+    top:8vw;
+    left:35vw;
+}
+#img6{
+    width: 55vw;
+    height: 30vw;
+    top:13vw;
+    left:22vw;
+    /* object-position: 20px 25px; */
+    
+}
+#img7{
+    width: 35vw;
+    height: 42vw;
+    top:8vw;
+    left:30vw;
+}
+/****************************Page3***********************************/
+#page3{
+    width: 100%;
+    height: 70vh;
+    /* background-color: yellow; */
+}
+#info{
+    /* background-color: aqua; */
+    margin:0 20vw
+    /* margin: 20vw; */
+    ;
+    text-align: center;
+    padding: 2.5vw 0;
+}
+#info h3{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0vw 0;
+}
+#info h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 2vw 0;
+   
+}
+#info h4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
