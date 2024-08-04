@@ -1,26 +1,27 @@
-// function Loader(){
-//     var tl = gsap.timeline()
-// tl.from("#Loader h1",{
+function Loader(){
+    var tl = gsap.timeline()
+tl.from("#Loader h1",{
     
-//     delay:1,
-//     duration:0.5,
-//     opacity:0
-// })
-// tl.to("#Loader h1",{
-//     y:-50,
-//     delay:1,
-//     duration:0.5,
-//     opacity:0
-// })
+    delay:1,
+    duration:0.5,
+    opacity:0
+})
+tl.to("#Loader h1",{
+    y:-50,
+    delay:1,
+    duration:0.5,
+    opacity:0
+})
 
-// tl.to("#loader ",{
-//     height:0,
+tl.to("#loader ",{
+    height:0,
 
-//     duration:1,
+    duration:1,
 
-//     ease:Expo.easeInOut,
-// })
-// }
+    ease:Expo.easeInOut,
+})
+}
+
 function CursorAnimation(){
     var csr=document.querySelector("#csr")
 
